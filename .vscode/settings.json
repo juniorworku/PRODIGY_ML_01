@@ -1,0 +1,35 @@
+{
+    // Automatically save files after a delay
+    "files.autoSave": "afterDelay",
+  
+    // Enable Jupyter notebooks inside VSCode
+    "jupyter.jupyterServerType": "local",
+  
+    // Enable interactive window debugging for Python cells
+    "python.dataScience.enableCellCodeLens": true,
+  
+    // Specify the Python interpreter
+    "python.pythonPath": "${workspaceFolder}/venv/Scripts/python",
+  
+    // Enable auto-completion with IntelliSense
+    "python.autoComplete.extraPaths": [
+      "${workspaceFolder}/src"
+    ],
+  
+    // Exclude unnecessary directories
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/*.pyc": true,
+      "**/.git": true,
+      "**/venv": true,
+      "**/dist": true,
+      "**/build": true
+    },
+  
+    // Set the default tab size to 4 spaces for Python
+    "editor.tabSize": 4,
+  
+    // Enable Jupyter notebook support
+    "jupyter.interactiveWindowMode": "perFile"
+  }
+  
